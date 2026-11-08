@@ -1,0 +1,8 @@
+{
+  "name": "Văn Miếu Toàn Cảnh",
+  "description": "Website tham quan ảo di tích quốc gia đặc biệt Văn Miếu – Quốc Tử Giám với sơ đồ 15 điểm dừng, thuyết minh giọng nói tiếng Việt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

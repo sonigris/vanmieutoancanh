@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-heritage-red: #8B1E1E;
+    --color-heritage-darkred: #661010;
+    --color-heritage-gold: #D4A346;
+    --color-heritage-lightgold: #F7E5A9;
+    --color-heritage-wood: #4A2E1B;
+    --color-heritage-darkwood: #2C1810;
+    --color-heritage-cream: #FAF6F0;
+    --color-heritage-sand: #F3EBDD;
+  }
+
+  body {
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+    background-color: #FAF6F0;
+    color: #2C1810;
+  }
+
+  h1, h2, h3, .font-serif-culture {
+    font-family: 'Lora', Georgia, serif;
+  }
+}
+
+/* Custom traditional scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EBDD;
+}
+::-webkit-scrollbar-thumb {
+  background: #C49A5A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B1E1E;
+}
+
+/* Traditional decorative border styles */
+.cultural-border {
+  border-color: #D4A346;
+  box-shadow: 0 4px 20px -2px rgba(74, 46, 27, 0.08);
+}
+
+.cultural-card {
+  background: #FFFFFF;
+  border: 1px solid #EADBCE;
+  transition: all 0.25s ease-in-out;
+}
+
+.cultural-card:hover {
+  border-color: #C49A5A;
+  box-shadow: 0 10px 25px -5px rgba(139, 30, 30, 0.1);
+}
